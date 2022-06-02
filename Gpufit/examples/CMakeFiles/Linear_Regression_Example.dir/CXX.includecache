@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/scratch/gpi/seis/HEX/GpuFit/Gpufit/Gpufit/constants.h
+
+/scratch/gpi/seis/HEX/GpuFit/Gpufit/Gpufit/definitions.h
+stdexcept
+-
+
+/scratch/gpi/seis/HEX/GpuFit/Gpufit/Gpufit/gpufit.h
+cstddef
+-
+stdexcept
+-
+constants.h
+/scratch/gpi/seis/HEX/GpuFit/Gpufit/Gpufit/constants.h
+definitions.h
+/scratch/gpi/seis/HEX/GpuFit/Gpufit/Gpufit/definitions.h
+
+/scratch/gpi/seis/HEX/GpuFit/Gpufit/examples/c++/Linear_Regression_Example.cpp
+../../Gpufit/gpufit.h
+/scratch/gpi/seis/HEX/GpuFit/Gpufit/Gpufit/gpufit.h
+vector
+-
+random
+-
+iostream
+-
+math.h
+-
+
